@@ -1,0 +1,94 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2C3E50, #4CA1AF);
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: #FFD700;
+    color: #2C3E50;
+    padding: 50px 20px;
+}
+
+.hero input, .hero button {
+    padding: 12px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #2C3E50;
+}
+
+.hero button {
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.hero button:hover {
+    background: #2C3E50;
+}
+
+/* Book Section */
+.books {
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.book {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.book img {
+    width: 120px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #34495E;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.3);
+}
