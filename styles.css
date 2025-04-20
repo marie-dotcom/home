@@ -1,20 +1,33 @@
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f4f4f4;
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
-    text-align: center;
+    box-sizing: border-box;
 }
 
-/* Header */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
 header {
-    background: linear-gradient(135deg, #2C3E50, #4CA1AF);
-    color: white;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        background: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f') no-repeat center center/cover;
+        color: rgb(1, 8, 99);
+        padding: 4rem 2rem;
+        text-align: center;
+        background-color: #005f73;
+        color: black(184, 32, 32);
+        padding: 2rem;
+        text-align: center;
+}
+
+
+nav {
+    background-color: #003355;
+    padding: 10px;
+    text-align: center;
 }
 
 nav ul {
@@ -26,68 +39,85 @@ nav ul li {
     display: inline;
     margin: 0 15px;
 }
-
 nav ul li a {
-    color: #FFD700;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Hero Section */
-.hero {
-    background: #FFD700;
-    color: #2C3E50;
-    padding: 50px 20px;
-}
-
-.hero input, .hero button {
-    padding: 12px;
-    margin: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #2C3E50;
-}
-
-.hero button {
-    background: #3498db;
     color: white;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s ease;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-.hero button:hover {
-    background: #2C3E50;
+    
+
+.intro {
+    padding: 2rem;
+    text-align: center;
 }
 
-/* Book Section */
-.departments {
-    padding: 40px;
-    background-color: rgba(155, 57, 57, 0.007);
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+.search-bar {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
-.book-list {
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #e9d8a6;
+}
+
+.feature-box {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.images {
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.carousel-track {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
-.department {
-    background: #c8d1d3;
-    padding: 20px;
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.image-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #2c2542;
+}
 
 footer {
-    background: #34495E;
+    background-color: #005f73;
     color: white;
-    padding: 15px;
-    font-size: 14px;
-    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }
